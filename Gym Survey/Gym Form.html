@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"
+          href="Gym%20Form.css">
+    <meta charset="UTF-8">
+    <title>More Info!</title>
+</head>
+<body>
+<div class="topnav">
+    <a href="/Homepage/Homepage.html">Home</a>
+    <a href="/Scroll%20Page/Scroll%20Page.html">Community</a>
+    <a href="/Unordered%20List%20Page/Unordered%20List.html">Equipment</a>
+    <a class="active" href="/Gym%20Survey/Gym%20Form.html">More Info</a>
+</div>
+<br>
+<form class="info" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+    <fieldset>
+        <legend class="YI">Your Information</legend>
+        <br>
+        <label>First Name:
+            <input type="text" name="Fname" size="30">
+        </label>
+        <br>
+        <br>
+        <label>Last Name:
+            <input type="text" name="Lname" size="30">
+        </label>
+        <br>
+        <br>
+        <label>Email:
+            <input type="email" name="email" size="30">
+        </label>
+        <br>
+        <br>
+        <label>Which topic would you like extra information on?</label>
+        <br>
+        <br>
+            <input type="radio" id="PT" name="topic" value="PT">
+            <label for="PT">Personal Training</label><br>
+        <br>
+            <input type="radio" id="membership" name="topic" value="membership">
+            <label for="membership">Membership</label><br>
+        <br>
+            <input type="radio" id="competition" name="topic" value="competition">
+            <label for="competition">Local Competitions</label>
+        <br>
+        <br>
+        <input name="submit" type="submit" value="Submit" id="submit" />
+    </fieldset>
+</form>
+</body>
+</html>
